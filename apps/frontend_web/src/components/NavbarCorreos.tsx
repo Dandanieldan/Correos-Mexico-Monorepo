@@ -18,12 +18,14 @@ export const NavbarCorreos = ({ transparent = false }: NavbarCorreosProps) => {
     >
       <div className="flex items-center justify-between w-full px-4 py-3">
         {/* LOGO */}
+        <Link href="/" className="cursor-pointer"> {/* <-- ENVOLVEMOS LA IMAGEN CON LINK */}
         <Image
-          src="/logoCorreos.png"
-          alt="Logo de correos"
-          width={100}
-          height={38}
+            src="/logoCorreos.png"
+            alt="Logo de correos"
+            width={100}
+            height={38}
         />
+    </Link>
 
         {/* BOTÓN HAMBURGUESA */}
         <button
