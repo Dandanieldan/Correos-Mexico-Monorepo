@@ -4,7 +4,6 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation' // <-- NUEVA IMPORTACIÓN
 import { IoArrowBackOutline } from 'react-icons/io5' // <-- NUEVA IMPORTACIÓN
 import { NavbarCorreos } from '@/components/NavbarCorreos'
-import Footer from '@/components/footerCorreos'
 
 
 export default function MexpostInternacional() {
@@ -301,7 +300,6 @@ export default function MexpostInternacional() {
                         </div>
                     </div>
                 </main>
-                <Footer />
 
             </div>
         </>
